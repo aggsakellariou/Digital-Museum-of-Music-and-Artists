@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{15CB7AA9-69B1-4479-9550-794AD4E57F8B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Digital_Museum_of_Music_and_Artists</RootNamespace>
+    <AssemblyName>Digital-Museum-of-Music-and-Artists</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BackButtonPressedEventArgs.cs" />
+    <Compile Include="Cafe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cafe.Designer.cs">
+      <DependentUpon>Cafe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CafeMobile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CafeMobile.Designer.cs">
+      <DependentUpon>CafeMobile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlPanel.Designer.cs">
+      <DependentUpon>ControlPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DJ.Designer.cs">
+      <DependentUpon>DJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Concert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Concert.Designer.cs">
+      <DependentUpon>Concert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DJDeck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DJDeck.Designer.cs">
+      <DependentUpon>DJDeck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DJState.cs" />
+    <Compile Include="EventA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventA.Designer.cs">
+      <DependentUpon>EventA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventB.Designer.cs">
+      <DependentUpon>EventB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExhibitionA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExhibitionA.Designer.cs">
+      <DependentUpon>ExhibitionA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExhibitionB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExhibitionB.Designer.cs">
+      <DependentUpon>ExhibitionB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Map.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Map.Designer.cs">
+      <DependentUpon>Map.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MediaPlayerForm .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MediaPlayerForm .Designer.cs">
+      <DependentUpon>MediaPlayerForm .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pictures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pictures.Designer.cs">
+      <DependentUpon>Pictures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CafeTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CafeTicket.Designer.cs">
+      <DependentUpon>CafeTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RoomState.cs" />
+    <Compile Include="Ticket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ticket.Designer.cs">
+      <DependentUpon>Ticket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Cafe.resx">
+      <DependentUpon>Cafe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CafeMobile.resx">
+      <DependentUpon>CafeMobile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlPanel.resx">
+      <DependentUpon>ControlPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DJ.resx">
+      <DependentUpon>DJ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Concert.resx">
+      <DependentUpon>Concert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DJDeck.resx">
+      <DependentUpon>DJDeck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventA.resx">
+      <DependentUpon>EventA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventB.resx">
+      <DependentUpon>EventB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExhibitionA.resx">
+      <DependentUpon>ExhibitionA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExhibitionB.resx">
+      <DependentUpon>ExhibitionB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Map.resx">
+      <DependentUpon>Map.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MediaPlayerForm .resx">
+      <DependentUpon>MediaPlayerForm .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pictures.resx">
+      <DependentUpon>Pictures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CafeTicket.resx">
+      <DependentUpon>CafeTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ticket.resx">
+      <DependentUpon>Ticket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modern_Museum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deck.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\controlPanel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ticket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3229647_ios_iphone_mobile_phone_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone-ed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CafeTicket1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Concert1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DJ1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EventA1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EventB1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExhibitionA1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExhibitionB1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1433422614-2048x2048.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CafeTicketOff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ConcertOff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DJOff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EventAOff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EventBOff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExhibitionAOff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExhibitionBOff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\controlPanel2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\controlPanelFinal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OffButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OnButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3994413_above_arrow_navigation_top_up_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8666558_chevron_down_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3994355_arrow_bottom_down_downward_navigation_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cafeGuy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\technician.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ticketLady.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forward-backward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\352097_backup_restore_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1564507_checked_favorite_star_favourite_rating_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2255648_mixer_audio_music_player_settings_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3289557_clan_group_partners_peers_people_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3586363_idea_light_lightbulb_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7149755_singing_microphone_sound_entertainment_karaoke_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8684081_folder_file_document_music_sound_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3669276_ic_over_record_voice_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8665551_forward_fast_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8542034_forward_arrow_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\panelEmpty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G Minor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beethoven vs Steibelt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9022584_map_trifold_duotone_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\temperature.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudWeather.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DJ_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DJ_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DJ_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DJBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DJGreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DJRed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExhibitionA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExhibitionB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\32 pieces of classical music you SHOULD know! %28720p%29.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\6138084_help_info_information_support_alert_icon.png" />
+    <None Include="Resources\Beethoven%27s family.jpg" />
+    <None Include="Resources\Bach playing the Organ.jpg" />
+    <None Include="Resources\Bach%27s family.jpg" />
+    <Content Include="Resources\Beethoven%27s genius explained in 3 minutes %281080p%29.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\cafeMenuIcon.png" />
+    <Content Include="Resources\Coldplay_A_Sky_Full_Of_Stars.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Dua_Lipa-Houdini%28Karaoke-edit%29.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\id_info.png" />
+    <None Include="Resources\id_info_employee.png" />
+    <None Include="Resources\ExhibitionA2.png" />
+    <None Include="Resources\ExhibitionA2Off.png" />
+    <Content Include="Resources\interview_tribute.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Johann_Sebastia_Bach.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\temperatureIcon.png" />
+    <None Include="Resources\left_arrow_icon.png" />
+    <None Include="Resources\right_arrow_icon.png" />
+    <None Include="Resources\Portrait of Beethoven.jpg" />
+    <None Include="Resources\The Revolutionary Beethoven.jpg" />
+    <None Include="Resources\Portrait of Bach.jpg" />
+    <Content Include="Resources\The_Classical.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\ticketIcon.png" />
+    <Content Include="Resources\Untitled-video-bach.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Wolfgang Amadeus Mozart - Pianist &amp; Composer _ Mini Bio _ BIO %28360p%29.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aggel\\OneDrive - unipi.gr\\CS\\2023-2024\\5\u03BF \u03B5\u03BE\u03AC\u03BC\u03B7\u03BD\u03BF\\\u0391\u03BB\u03BB\u03B7\u03BB\u03B5\u03C0\u03AF\u03B4\u03C1\u03B1\u03C3\u03B7 \u03B1\u03BD\u03B8\u03C1\u03CE\u03C0\u03BF\u03C5 \u03BA\u03B1\u03B9 \u03C5\u03C0\u03BF\u03BB\u03BF\u03B3\u03B9\u03C3\u03C4\u03AE\\\u0395\u03C1\u03B3\u03B1\u03C3\u03AF\u03B5\u03C2\\\u03A4\u03B5\u03BB\u03B9\u03BA\u03AE\u0395\u03C1\u03B3\u03B1\u03C3\u03AF\u03B1\\c#\\Digital-Museum-of-Music-and-Artists\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB7AA9-69B1-4479-9550-794AD4E57F8B}|Digital-Museum-of-Music-and-Artists.csproj|C:\\Users\\aggel\\OneDrive - unipi.gr\\CS\\2023-2024\\5\u03BF \u03B5\u03BE\u03AC\u03BC\u03B7\u03BD\u03BF\\\u0391\u03BB\u03BB\u03B7\u03BB\u03B5\u03C0\u03AF\u03B4\u03C1\u03B1\u03C3\u03B7 \u03B1\u03BD\u03B8\u03C1\u03CE\u03C0\u03BF\u03C5 \u03BA\u03B1\u03B9 \u03C5\u03C0\u03BF\u03BB\u03BF\u03B3\u03B9\u03C3\u03C4\u03AE\\\u0395\u03C1\u03B3\u03B1\u03C3\u03AF\u03B5\u03C2\\\u03A4\u03B5\u03BB\u03B9\u03BA\u03AE\u0395\u03C1\u03B3\u03B1\u03C3\u03AF\u03B1\\c#\\Digital-Museum-of-Music-and-Artists\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{15CB7AA9-69B1-4479-9550-794AD4E57F8B}|Digital-Museum-of-Music-and-Artists.csproj|solutionrelative:map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB7AA9-69B1-4479-9550-794AD4E57F8B}|Digital-Museum-of-Music-and-Artists.csproj|c:\\users\\aggel\\onedrive - unipi.gr\\cs\\2023-2024\\5\u03BF \u03B5\u03BE\u03AC\u03BC\u03B7\u03BD\u03BF\\\u03B1\u03BB\u03BB\u03B7\u03BB\u03B5\u03C0\u03AF\u03B4\u03C1\u03B1\u03C3\u03B7 \u03B1\u03BD\u03B8\u03C1\u03CE\u03C0\u03BF\u03C5 \u03BA\u03B1\u03B9 \u03C5\u03C0\u03BF\u03BB\u03BF\u03B3\u03B9\u03C3\u03C4\u03AE\\\u03B5\u03C1\u03B3\u03B1\u03C3\u03AF\u03B5\u03C2\\\u03C4\u03B5\u03BB\u03B9\u03BA\u03AE\u03B5\u03C1\u03B3\u03B1\u03C3\u03AF\u03B1\\c#\\digital-museum-of-music-and-artists\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CB7AA9-69B1-4479-9550-794AD4E57F8B}|Digital-Museum-of-Music-and-Artists.csproj|solutionrelative:map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Map.cs",
+              "DocumentMoniker": "C:\\Users\\aggel\\OneDrive - unipi.gr\\CS\\2023-2024\\5\u03BF \u03B5\u03BE\u03AC\u03BC\u03B7\u03BD\u03BF\\\u0391\u03BB\u03BB\u03B7\u03BB\u03B5\u03C0\u03AF\u03B4\u03C1\u03B1\u03C3\u03B7 \u03B1\u03BD\u03B8\u03C1\u03CE\u03C0\u03BF\u03C5 \u03BA\u03B1\u03B9 \u03C5\u03C0\u03BF\u03BB\u03BF\u03B3\u03B9\u03C3\u03C4\u03AE\\\u0395\u03C1\u03B3\u03B1\u03C3\u03AF\u03B5\u03C2\\\u03A4\u03B5\u03BB\u03B9\u03BA\u03AE\u0395\u03C1\u03B3\u03B1\u03C3\u03AF\u03B1\\c#\\Digital-Museum-of-Music-and-Artists\\Map.cs",
+              "RelativeDocumentMoniker": "Map.cs",
+              "ToolTip": "C:\\Users\\aggel\\OneDrive - unipi.gr\\CS\\2023-2024\\5\u03BF \u03B5\u03BE\u03AC\u03BC\u03B7\u03BD\u03BF\\\u0391\u03BB\u03BB\u03B7\u03BB\u03B5\u03C0\u03AF\u03B4\u03C1\u03B1\u03C3\u03B7 \u03B1\u03BD\u03B8\u03C1\u03CE\u03C0\u03BF\u03C5 \u03BA\u03B1\u03B9 \u03C5\u03C0\u03BF\u03BB\u03BF\u03B3\u03B9\u03C3\u03C4\u03AE\\\u0395\u03C1\u03B3\u03B1\u03C3\u03AF\u03B5\u03C2\\\u03A4\u03B5\u03BB\u03B9\u03BA\u03AE\u0395\u03C1\u03B3\u03B1\u03C3\u03AF\u03B1\\c#\\Digital-Museum-of-Music-and-Artists\\Map.cs",
+              "RelativeToolTip": "Map.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T14:47:15.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Map.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aggel\\OneDrive - unipi.gr\\CS\\2023-2024\\5\u03BF \u03B5\u03BE\u03AC\u03BC\u03B7\u03BD\u03BF\\\u0391\u03BB\u03BB\u03B7\u03BB\u03B5\u03C0\u03AF\u03B4\u03C1\u03B1\u03C3\u03B7 \u03B1\u03BD\u03B8\u03C1\u03CE\u03C0\u03BF\u03C5 \u03BA\u03B1\u03B9 \u03C5\u03C0\u03BF\u03BB\u03BF\u03B3\u03B9\u03C3\u03C4\u03AE\\\u0395\u03C1\u03B3\u03B1\u03C3\u03AF\u03B5\u03C2\\\u03A4\u03B5\u03BB\u03B9\u03BA\u03AE\u0395\u03C1\u03B3\u03B1\u03C3\u03AF\u03B1\\c#\\Digital-Museum-of-Music-and-Artists\\Map.cs",
+              "RelativeDocumentMoniker": "Map.cs",
+              "ToolTip": "C:\\Users\\aggel\\OneDrive - unipi.gr\\CS\\2023-2024\\5\u03BF \u03B5\u03BE\u03AC\u03BC\u03B7\u03BD\u03BF\\\u0391\u03BB\u03BB\u03B7\u03BB\u03B5\u03C0\u03AF\u03B4\u03C1\u03B1\u03C3\u03B7 \u03B1\u03BD\u03B8\u03C1\u03CE\u03C0\u03BF\u03C5 \u03BA\u03B1\u03B9 \u03C5\u03C0\u03BF\u03BB\u03BF\u03B3\u03B9\u03C3\u03C4\u03AE\\\u0395\u03C1\u03B3\u03B1\u03C3\u03AF\u03B5\u03C2\\\u03A4\u03B5\u03BB\u03B9\u03BA\u03AE\u0395\u03C1\u03B3\u03B1\u03C3\u03AF\u03B1\\c#\\Digital-Museum-of-Music-and-Artists\\Map.cs [Design]",
+              "RelativeToolTip": "Map.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T14:47:18.027Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
